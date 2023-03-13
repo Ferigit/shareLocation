@@ -1,5 +1,7 @@
 import "./App.css";
 import { useMapStore } from "./store/mapStore";
+import { AppRoutes } from "./routes";
+import { BrowserRouter } from "react-router-dom";
 
 // Styles
 import "./assets/styles/styles.scss";
@@ -15,10 +17,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline text-red-600">
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+      {/* <h1 className="text-3xl font-bold underline text-red-600">
         Location : {location?.lat}, {location?.lang}
       </h1>
-      <button onClick={handleUpdateLocation}>click</button>
+      <button onClick={handleUpdateLocation}>click</button> */}
     </div>
   );
 }
