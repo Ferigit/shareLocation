@@ -6,14 +6,13 @@ import { ToastContainer, toast } from "react-toastify";
 
 // Styles
 import "react-toastify/dist/ReactToastify.css";
-import "../../assets/styles/styles.scss";
+import "assets/styles/styles.scss";
 
 function App() {
   return (
     <div className="App">
       <ToastContainer
         position="top-center"
-        // autoClose={10000000000}
         bodyClassName={() => "text-notif"}
       />
       <Suspense fallback={<div>Loading...</div>}>
