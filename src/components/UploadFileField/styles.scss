@@ -1,0 +1,31 @@
+// @import '../../assets/sass/colors.scss';
+
+.upload-icon {
+  width: 15%;
+}
+
+.upload-text {
+  color: var(--white);
+  padding: 5px 0px;
+  background-color: var(--blue);
+}
+
+.upload-btn {
+  background-color: var(--skyBlue);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.file-name {
+  margin-top: 10px;
+}
+
+.preview-img {
+  width: 100px;
+  height: 100px;
+}
+
+.remove-icon {
+  width: 20px;
+  height: 20px;
+}

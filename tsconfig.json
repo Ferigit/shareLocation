@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "baseUrl": "./src",
     "lib": [
       "dom",
       "dom.iterable",
@@ -18,9 +19,18 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "assets/*": [ "assets/*" ],
+      "components/*": [ "components/*" ],
+      "containers/*": [ "containers/*" ],
+      "types/*": [ "types/*" ],
+      "store/*": [ "store/*" ],
+      "apiInstance/*": [ "apiInstance/*" ]
+  }
   },
   "include": [
-    "src"
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ]
 }
