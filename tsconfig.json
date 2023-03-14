@@ -26,7 +26,8 @@
       "containers/*": [ "containers/*" ],
       "types/*": [ "types/*" ],
       "store/*": [ "store/*" ],
-      "apiInstance/*": [ "apiInstance/*" ]
+      "apiInstance/*": [ "apiInstance/*" ],
+      "routes/*": [ "routes/*" ]
   }
   },
   "include": [

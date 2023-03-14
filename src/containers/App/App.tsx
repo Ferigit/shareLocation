@@ -1,10 +1,10 @@
 import { Suspense } from "react";
-import { AppRoutes } from "../../routes";
+import { AppRoutes } from "routes";
 import { BrowserRouter } from "react-router-dom";
-import "leaflet/dist/leaflet.css";
 import { ToastContainer, toast } from "react-toastify";
 
 // Styles
+import "leaflet/dist/leaflet.css";
 import "react-toastify/dist/ReactToastify.css";
 import "assets/styles/styles.scss";
 
